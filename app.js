@@ -2,7 +2,7 @@ const express= require('express')
 const bodyParser=require('body-parser')
 const app= express()
 
-const date=require(__dirname+'/date.js')
+const date=require('date.js')
 
 let items=  ['Buy Food','Cook Food','Eat Food']
 let workItems=[]
